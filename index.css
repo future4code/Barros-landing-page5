@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#1F1F24;
+}
+
+.logoCabecalho{
+    height: 59px;
+    left: 55px;
+}
+
+.menuSuperior{
+    display: flex; 
+}
+
+.menuSuperior a{
+    color: #D2C2B0;
+}
+
+.menuSuperior li {
+    padding-right: 35px;
+    list-style-type: none;
+    color: #D2C2B0;
+}
+
+.logos{
+    margin-right: 25px;
+   
+}
+
+.logos > a > img{
+    width: 40px;
+    padding-left: 10px;
+}
+
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 25px;
+    flex-wrap: wrap;
+}
+
+.textoPrincipal > h2, p, button{
+    color: #1F1F24;
+}
+
+.textoPrincipal p{
+    max-width: 500px;
+    min-height: 204px;
+    font-size: 50px;
+    font-weight: 550;
+}
+
+.textoPrincipal h2{
+    align-self: flex-start;
+    margin-bottom: 19px;
+    font-size: 24px;
+    text-align: left;
+    color: #d2ab7f;
+    flex-wrap: wrap;
+}
+
+.textoPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+#btn-whatsapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px;
+    gap: 5px;
+    width: 250px;
+    height: 52px;
+    margin-top: 34px;
+    background-color: #1F1F24;
+    color: #D2C2B0 ;
+    border-radius: 40px;
+}
+#btn-whatsapp:hover{
+    background-color: #da8019;
+}
+
+#foto-casal{
+    max-width: 600px;
+    border-radius: 17px;
+    margin-top: 58px;
+}
+
+.sobreNos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    background-color: #1F1F24;
+    height: 229px;
+}
+
+.sobreNos p{
+    font-size: 24px;
+    color: #D2C2B0;
+    padding: 40px;
+    text-align: center;
+    line-height: 150%;
+}
+
+#nossos-servicos{
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+.servicos{
+    background-color: #D2C2B0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 340px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+.credito{
+    max-width: 30%;
+}
+
+#linha{
+    background-color: #1F1F24;
+    height: 180px;
+    width: 2px;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: #1F1F24;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    color: #D2C2B0;
+}
+
