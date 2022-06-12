@@ -97,6 +97,9 @@ header{
     color: #D2C2B0 ;
     border-radius: 40px;
 }
+#btn-whatsapp:hover{
+    background-color: #da8019;
+}
 
 #foto-casal{
     max-width: 600px;
