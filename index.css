@@ -235,6 +235,11 @@ footer{
         
 
      }
+     .textoPrincipal h2{
+        text-align: center;
+        padding: 10px;
+     }
+
     
     .textoPrincipal {
         padding-left: 25%;
