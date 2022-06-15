@@ -8,6 +8,8 @@
     font-family: 'DM Sans', sans-serif;
 }
 
+/*Cabeçalho, onde está localizado o logo, e o menu superior*/
+
 header{
     display: flex;
     flex-direction: row;
@@ -17,19 +19,26 @@ header{
     align-items: center;
     background-color:#1F1F24;
 }
+/*Nosso logo do cabeçalho*/
 
 .logoCabecalho{
     height: 59px;
     left: 55px;
 }
 
+/*Aqui, esta como nosso menu está 'alinhado'*/
+
 .menuSuperior{
     display: flex; 
 }
 
+/*As cores do nosso menu (que está no cabeçalho)*/
+
 .menuSuperior a{
     color: #D2C2B0;
 }
+
+/*Aqui fica a quantidade de linha, as cores da fonte e o tamanho*/
 
 .menuSuperior li {
     padding-right: 35px;
@@ -37,15 +46,21 @@ header{
     color: #D2C2B0;
 }
 
+/*Nossas redes sociais, o tamanho delas.*/
+
 .logos{
     margin-right: 25px;
    
 }
 
+/*Redes sociais, onde está alinhado e o tamanho.*/
+
 .logos > a > img{
     width: 40px;
     padding-left: 10px;
 }
+
+/*Está nossas boas vindas (texto chamativo)*/
 
 .principal{
     display: flex;
@@ -56,9 +71,13 @@ header{
     flex-wrap: wrap;
 }
 
+/*As cores das boas vindas e o botao de whatsap*/
+
 .textoPrincipal > h2, p, button{
     color: #1F1F24;
 }
+
+/*Nossa frase de "intusiasmo" com os clientes*/
 
 .textoPrincipal p{
     max-width: 500px;
@@ -66,6 +85,8 @@ header{
     font-size: 50px;
     font-weight: 550;
 }
+
+/*Nossa frase de "intusiasmo" com os clientes*/
 
 .textoPrincipal h2{
     align-self: flex-start;
@@ -76,12 +97,16 @@ header{
     flex-wrap: wrap;
 }
 
+/*Nossa frase de "intusiasmo" com os clientes*/
+
 .textoPrincipal{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
 }
+
+/*Botão do whatsapp(como falar conosco)*/
 
 #btn-whatsapp{
     display: flex;
@@ -97,15 +122,20 @@ header{
     color: #D2C2B0 ;
     border-radius: 40px;
 }
+/* Cor de quando passa o mouse em cima*/
 #btn-whatsapp:hover{
     background-color: #da8019;
 }
+
+/*Nossa imagem principal do site*/
 
 #foto-casal{
     max-width: 600px;
     border-radius: 17px;
     margin-top: 58px;
 }
+
+/*Quem somos, e oque estamos dispostos a oferecer para os clientes*/
 
 .sobreNos{
     display: flex;
@@ -115,6 +145,8 @@ header{
     height: 229px;
 }
 
+/*Quem somos, e oque estamos dispostos a oferecer para os clientes(cores e tamanhos)*/
+
 .sobreNos p{
     font-size: 24px;
     color: #D2C2B0;
@@ -123,11 +155,15 @@ header{
     line-height: 150%;
 }
 
+/*O que vams oferecer para nossos clientes, nossos serviços*/
+
 #nossos-servicos{
     text-align: center;
     padding: 30px;
     text-decoration: underline;
 }
+
+/*O que vams oferecer para nossos clientes, nossos serviços*/
 
 .servicos{
     background-color: #D2C2B0;
@@ -142,9 +178,13 @@ header{
     width: 100%;
 }
 
+/*O que vams oferecer para nossos clientes, nossos serviços(tamanho do texto)*/
+
 .credito{
     max-width: 30%;
 }
+
+/*linha de decoração, separando um serviço do outro*/
 
 #linha{
     background-color: #1F1F24;
@@ -152,6 +192,8 @@ header{
     width: 2px;
     border-radius: 50px;
 }
+
+/*Rodapé, contendo nossos contatos.*/
 
 footer{
     background-color: #1F1F24;
@@ -161,6 +203,9 @@ footer{
     height: 150px;
     color: #D2C2B0;
 }
+
+
+/*RESPONSIVIDADE*/
 
 @media screen and (max-width: 400px) {
     header {
@@ -178,11 +223,11 @@ footer{
     }
     .menuSuperior {
         display: inline;
-        margin: 0;
         text-align: center;
         height: 100px;
         width: 130%;
-        font-size: 20px;
+        font-size: 25px;
+
     
     }
     .logos {
@@ -194,8 +239,36 @@ footer{
         padding-left: 25%;
         text-align: center;
         padding-top: 5%;
-        font-size: 20px;
+        font-size: 10px;
     }
+    #foto-casal {
+        max-width: 450px;
+        padding-left: 78px;
+        border-radius: 10%;
+
+    }
+    .sobreNos {
+        display: block;
+        height: 100%;
+        width: 129%;
+        text-align: center;
+        margin-top: 55px;
+        background-color: #1F1F24;
+        height: 450px;
+        font-size: 10px;
+         
+    }
+    #contatos  {
+        display: block;
+        text-align: center;
+        height: 100%;
+        width: 129%;
+        font-size: 19px;
+        padding: 10px;
+    }
+}
+    
+
+
    
     
-}
