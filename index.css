@@ -266,15 +266,23 @@ footer{
         font-size: 19px;
         padding: 10px;
     }
-#nossos-servicos {
+    #nossos-servicos {
     display: block;
     text-align: center;
     height: 100%;
     width: 129%;
-    margin-top: 55px;
-    
-}
-
+    margin-top: 55px;}
+    .servicos{
+    background-color: #D2C2B0;
+    display: flex;
+    flex-direction: column;
+ }
+    #linha{
+    background-color: #1F1F24;
+    height: 2px;
+    width: 180px;
+    border-radius: 50px;
+ }
 }
 
     
