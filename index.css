@@ -266,7 +266,16 @@ footer{
         font-size: 19px;
         padding: 10px;
     }
+#nossos-servicos {
+    display: block;
+    text-align: center;
+    height: 100%;
+    width: 129%;
+    margin-top: 55px;
 }
+
+}
+
     
 
 
