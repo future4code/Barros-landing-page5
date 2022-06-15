@@ -272,15 +272,18 @@ footer{
     height: 100%;
     width: 129%;
     margin-top: 55px;}
+    
     .servicos{
     background-color: #D2C2B0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    text-align: center;
+    
  }
     #linha{
     background-color: #1F1F24;
-    height: 2px;
-    width: 180px;
+    height: 180px;
+    width: 2px;
     border-radius: 50px;
  }
 }
